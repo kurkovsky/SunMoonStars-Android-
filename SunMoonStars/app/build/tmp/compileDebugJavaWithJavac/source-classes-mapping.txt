@@ -1,0 +1,2 @@
+com/example/sunmoonstars/BuildConfig.java
+ com.example.sunmoonstars.BuildConfig

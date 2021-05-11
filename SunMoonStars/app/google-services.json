@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "620199473908",
+    "project_id": "smsnotification-25d8d",
+    "storage_bucket": "smsnotification-25d8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620199473908:android:9f2a2513cb1f1a0c1624a1",
+        "android_client_info": {
+          "package_name": "com.example.sunmoonstars"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620199473908-vprtpp6dm6ek1d207mufve94do8e2rel.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzW5lDs6ps6TBZxxdtdg7uPoUd8mHz-EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620199473908-vprtpp6dm6ek1d207mufve94do8e2rel.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
