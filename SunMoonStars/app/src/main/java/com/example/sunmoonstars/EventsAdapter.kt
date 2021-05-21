@@ -34,9 +34,9 @@ class EventsAdapter(
         holder.location.text = currentItem.location
         holder.activityAbstract.text = currentItem.activityAbstract
         //holder.starttime.text = currentItem.startTime.substring(11,16)
-        holder.starttime.text = getTheTime(currentItem.startTime.substring(11,16))
+        holder.starttime.text = getTheTime(currentItem.startTime.substring(0,5))
         //holder.endtime.text = currentItem.endTime.substring(11,16)
-        holder.endtime.text = getTheTime(currentItem.endTime.substring(11,16))
+        holder.endtime.text = getTheTime(currentItem.endTime.substring(0,5))
         holder.link.text = currentItem.link
         holder.date.text = currentItem.date.substring(0,10)
         holder.price.text = currentItem.price
@@ -98,7 +98,7 @@ class EventsAdapter(
         try {
             val _24HourSDF = SimpleDateFormat("HH:mm")
             val _12HourSDF = SimpleDateFormat("hh:mm a")
-            val _24HourDt = _24HourSDF.parse(convertedtime)
+            val _24HourDt = _24HourSDF.parse(twofourTime)
             return _12HourSDF.format(_24HourDt)
         } catch (e: Exception) {
             e.printStackTrace()
