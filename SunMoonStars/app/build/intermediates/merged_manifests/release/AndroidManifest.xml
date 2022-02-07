@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.sunmoonstars"
-    android:versionCode="1"
-    android:versionName="1.0" >
+    package="com.sms.sunmoonstars"
+    android:versionCode="2"
+    android:versionName="1.1" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -17,12 +17,12 @@
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="Events"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SunMoonStars"
         android:usesCleartextTraffic="true" >
-        <activity android:name="com.example.sunmoonstars.MainActivity" >
+        <activity android:name="com.sms.sunmoonstars.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,7 +30,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.example.sunmoonstars.MyFirebaseMessagingService" >
+        <service android:name="com.sms.sunmoonstars.MyFirebaseMessagingService" >
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
@@ -83,11 +83,11 @@
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.sunmoonstars.com.squareup.picasso"
+            android:authorities="com.sms.sunmoonstars.com.squareup.picasso"
             android:exported="false" />
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
-            android:authorities="com.example.sunmoonstars.firebaseinitprovider"
+            android:authorities="com.sms.sunmoonstars.firebaseinitprovider"
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />

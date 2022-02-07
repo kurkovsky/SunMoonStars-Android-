@@ -61,7 +61,7 @@ INJECTED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:2:1-31:1
 INJECTED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:2:1-31:12
 INJECTED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
-		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:3:5-39
+		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -127,7 +127,7 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\
 	android:supportsRtl
 		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:12:9-35
 	android:label
-		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:10:9-31
 	android:roundIcon
 		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:11:9-54
 	android:icon
@@ -138,7 +138,7 @@ MERGED from [com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\
 		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:13:9-50
 	android:usesCleartextTraffic
 		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:14:9-44
-activity#com.example.sunmoonstars.MainActivity
+activity#com.sms.sunmoonstars.MainActivity
 ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:15:9-21:20
 	android:name
 		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:15:19-47
@@ -152,7 +152,7 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
 		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:19:27-74
-service#com.example.sunmoonstars.MyFirebaseMessagingService
+service#com.sms.sunmoonstars.MyFirebaseMessagingService
 ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:23:9-28:19
 	android:name
 		ADDED from D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:24:13-55

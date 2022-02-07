@@ -1,6 +1,6 @@
 1<?xml version="1.0" encoding="utf-8"?>
 2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-3    package="com.example.sunmoonstars"
+3    package="com.sms.sunmoonstars"
 4    android:versionCode="1"
 5    android:versionName="1.0" >
 6
@@ -32,8 +32,8 @@
 19        android:debuggable="true"
 20        android:icon="@mipmap/ic_launcher"
 20-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:9:9-43
-21        android:label="@string/app_name"
-21-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:10:9-41
+21        android:label="Events"
+21-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:10:9-31
 22        android:roundIcon="@mipmap/ic_launcher_round"
 22-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:11:9-54
 23        android:supportsRtl="true"
@@ -43,7 +43,7 @@
 25-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:13:9-50
 26        android:usesCleartextTraffic="true" >
 26-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:14:9-44
-27        <activity android:name="com.example.sunmoonstars.MainActivity" >
+27        <activity android:name="com.sms.sunmoonstars.MainActivity" >
 27-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:15:9-21:20
 27-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:15:19-47
 28            <intent-filter>
@@ -58,7 +58,7 @@
 32            </intent-filter>
 33        </activity>
 34
-35        <service android:name="com.example.sunmoonstars.MyFirebaseMessagingService" >
+35        <service android:name="com.sms.sunmoonstars.MyFirebaseMessagingService" >
 35-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:23:9-28:19
 35-->D:\Projects\SunMoonStars\app\src\main\AndroidManifest.xml:24:13-55
 36            <intent-filter>
@@ -151,7 +151,7 @@
 86-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\4d050727352d5fefeb1771f7644460f5\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
 87            android:name="com.squareup.picasso.PicassoProvider"
 87-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\4d050727352d5fefeb1771f7644460f5\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
-88            android:authorities="com.example.sunmoonstars.com.squareup.picasso"
+88            android:authorities="com.sms.sunmoonstars.com.squareup.picasso"
 88-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\4d050727352d5fefeb1771f7644460f5\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
 89            android:exported="false" />
 89-->[com.squareup.picasso:picasso:2.71828] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\4d050727352d5fefeb1771f7644460f5\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
@@ -159,7 +159,7 @@
 90-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\d2bbb42c5c7a1502a0d439980af8d208\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
 91            android:name="com.google.firebase.provider.FirebaseInitProvider"
 91-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\d2bbb42c5c7a1502a0d439980af8d208\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
-92            android:authorities="com.example.sunmoonstars.firebaseinitprovider"
+92            android:authorities="com.sms.sunmoonstars.firebaseinitprovider"
 92-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\d2bbb42c5c7a1502a0d439980af8d208\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
 93            android:directBootAware="true"
 93-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Ani\.gradle\caches\transforms-2\files-2.1\d2bbb42c5c7a1502a0d439980af8d208\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43

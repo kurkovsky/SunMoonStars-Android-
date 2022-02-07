@@ -24,12 +24,12 @@
         "source": "D:\\Projects\\SunMoonStars\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "D:\\Projects\\SunMoonStars\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item.xml.flat",
-        "source": "D:\\Projects\\SunMoonStars\\app\\src\\main\\res\\layout\\row_item.xml"
-    },
-    {
         "merged": "D:\\Projects\\SunMoonStars\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
         "source": "D:\\Projects\\SunMoonStars\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\Projects\\SunMoonStars\\app\\build\\intermediates\\res\\merged\\debug\\layout_row_item.xml.flat",
+        "source": "D:\\Projects\\SunMoonStars\\app\\src\\main\\res\\layout\\row_item.xml"
     },
     {
         "merged": "D:\\Projects\\SunMoonStars\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_foreground.png.flat",

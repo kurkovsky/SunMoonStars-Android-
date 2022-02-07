@@ -1,4 +1,4 @@
-com.example.sunmoonstars
+com.sms.sunmoonstars
 anim abc_fade_in
 anim abc_fade_out
 anim abc_grow_fade_in_from_bottom
@@ -2093,9 +2093,7 @@ id tv_endtime
 id tv_link
 id tv_location
 id tv_money1
-id tv_money2
 id tv_name
-id tv_perperson
 id tv_price
 id tv_priceper
 id tv_starttime
